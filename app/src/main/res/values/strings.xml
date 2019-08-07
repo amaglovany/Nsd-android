@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Nsd</string>
+
+    <string name="clear">Clear</string>
+    <string name="create">Create</string>
+    <string name="discover">Discover</string>
+    <string name="connect">Connect</string>
+    <string name="send">Send</string>
+    <string name="stop_discovering">Stop discovering</string>
+    <string name="stop_service">Stop service</string>
+    <string name="message">Message</string>
+
+    <string name="format.current_s">Current: %s</string>
+</resources>

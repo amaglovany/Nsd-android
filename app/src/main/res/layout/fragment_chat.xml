@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText"
+        android:layout_alignParentTop="true"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/stroke"
+        android:layout_above="@+id/editText"
+        android:background="@color/colorAccent"
+        tools:ignore="UnusedAttribute"/>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:background="@null"
+        android:hint="@string/message"
+        android:inputType="textCapSentences"
+        android:maxLines="3"
+        android:paddingBottom="@dimen/spacing"
+        android:paddingEnd="@dimen/spacing_x4"
+        android:paddingStart="@dimen/spacing"
+        android:paddingTop="@dimen/spacing"/>
+
+    <ImageView
+        android:id="@+id/buttonSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:contentDescription="@string/send"
+        android:padding="@dimen/spacing"
+        android:src="@drawable/svg_send"
+        android:visibility="gone"/>
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Spacing -->
+    <dimen name="spacing">8dp</dimen>
+    <dimen name="spacing_x2">16dp</dimen>
+    <dimen name="spacing_x3">24dp</dimen>
+    <dimen name="spacing_x4">32dp</dimen>
+
+    <!-- Stroke -->
+    <dimen name="stroke">1dp</dimen>
+    <dimen name="stroke_x2">2dp</dimen>
+
+    <!-- Text -->
+    <dimen name="text.huge">24sp</dimen>
+    <dimen name="text.large">18sp</dimen>
+    <dimen name="text.primary">16sp</dimen>
+    <dimen name="text.secondary">14sp</dimen>
+    <dimen name="text.normal">12sp</dimen>
+    <dimen name="text.small">10sp</dimen>
+</resources>
